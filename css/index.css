@@ -1,0 +1,5 @@
+.imagen-de-fondo{
+    background-image: url('../img/Neon.jpg');
+    background-position: center;
+    background-size: cover;
+}
