@@ -50,7 +50,7 @@
     <!--Aqui pongo la imagen de fondo y en el mismo div pongo el color de texto blanco-->
     <div class="imagen-de-fondo text-white text-center container-fluid vh-100 bg-image bg-size-cover">
         <div class="row justify-content-center pt-3 bg-image">
-            <div class="col-6 bg-black">
+            <div class="col-6-sm bg-black">
               <h1 class="my-3">Formulario de Contacto:</h1>
 
               <!--Formulario, aqui creo el llamado al metodo insertar de la clase DAO-->
