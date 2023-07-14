@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
       <div class="container">
         <!--Logo-->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.html">
           <img src="./img/RDJmini.png" alt="Logo" height="30">
         </a>
         <!--Botón para dispositivos moviles-->
