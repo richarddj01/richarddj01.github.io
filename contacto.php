@@ -47,7 +47,7 @@
     </nav>
   </header>
   <article>
-    <!--Aqui pongo la imagen de fondo y en el mismo div pongo el color de texto blanco-->
+    <!--Aqui pongo el color de texto blanco-->
     <div class="bg-secondary text-white text-center">
         <div class="row justify-content-center py-5 bg-image">
             <div class="col-sm col-md-10 col-lg-8 bg-black">
@@ -73,13 +73,13 @@
 
                   <div class="row">
                     <div class="col text-secondary">
-                      <div class="form-floating mt-3">
+                      <div class="form-floating mt-4">
                         <textarea class="form-control h-100" id="mensaje" name="mensaje" rows="10" placeholder=" " required></textarea>
                         <label class="form-label" for="mensaje">Mensaje:</label>
                       </div>
                     </div>
                   </div>
-                  <input class="btn btn-success col-6 my-3" type="submit" value="Enviar">
+                  <input class="btn btn-success col-6 my-4" type="submit" value="Enviar">
               </form>
 
               <!-- Mensaje de éxito -->
