@@ -48,9 +48,9 @@
   </header>
   <article>
     <!--Aqui pongo el color de texto blanco-->
-    <div class="bg-secondary text-white text-center">
-        <div class="row justify-content-center py-5 bg-image">
-            <div class="col-sm col-md-10 col-lg-8 bg-black">
+    <div class="bg-secondary text-white text-center containter container-fluid vh-100 align-items-center d-inline-flex justify-content-center">
+        <div class="row justify-content-center">
+            <div class="col-sm bg-black py-4">
               <h1 class="my-3">Formulario de Contacto:</h1>
 
               <!--Formulario, aqui creo el llamado al metodo insertar de la clase DAO-->
