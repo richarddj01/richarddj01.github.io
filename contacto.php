@@ -54,7 +54,7 @@
               <h1>Formulario de ejemplo</h1>
 
               <!--Formulario, aqui creo el llamado al metodo insertar de la clase DAO-->
-              <form method="POST" action="./php/FormularioProcesar.php">
+              <form method="POST" action="./php/formulario/FormularioProcesar.php">
                   <label for="nombre">Nombre:</label>
                   <input type="text" id="nombre" name="nombre" required><br>
 
