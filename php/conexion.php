@@ -1,7 +1,7 @@
 <?php
 
 class conexion {
-    private $host = "ricardopineda.net";
+    private $host = "67.217.58.45";
     private $username = "richarddj";
     private $password = "xD.Rdj01";
     private $database = "rdjp";
