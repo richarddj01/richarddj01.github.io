@@ -49,31 +49,46 @@
   <article>
     <!--Aqui pongo la imagen de fondo y en el mismo div pongo el color de texto blanco-->
     <div class="imagen-de-fondo text-white text-center container-fluid vh-100 bg-image bg-size-cover">
-        <div class="row">
-            <div class="col">
-              <h1>Formulario de ejemplo</h1>
+        <div class="row justify-content-center pt-3 bg-image">
+            <div class="col-6 bg-black">
+              <h1 class="my-3">Formulario de Contacto:</h1>
 
               <!--Formulario, aqui creo el llamado al metodo insertar de la clase DAO-->
-              <form method="POST" action="./php/formulario/FormularioProcesar.php">
-                  <label for="nombre">Nombre:</label>
-                  <input type="text" id="nombre" name="nombre" required><br>
+              <form class="form-floating mx-5" method="POST" action="./php/formulario/FormularioProcesar.php">
+                  <div class="row">
+                    <div class="col-6 text-secondary">
+                      <div class="form-floating">
+                        <input class="form-control" type="text" id="nombre" name="nombre" placeholder=" " required>
+                        <label class="form-label" for="nombre">Nombre:</label>
+                      </div>
+                    </div>
 
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" required><br>
+                    <div class="col-6 text-secondary">
+                      <div class="form-floating">
+                        <input class="form-control" type="email" id="email" name="email" placeholder=" " required>
+                        <label class="form-label" for="email">Correo:</label>
+                      </div>
+                    </div>
+                  </div>
 
-                  <label for="mensaje">Mensaje:</label><br>
-                  <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
-                  
-                  <input type="submit" value="Enviar">
+                  <div class="row">
+                    <div class="col text-secondary">
+                      <div class="form-floating mt-3">
+                        <textarea class="form-control h-100" id="mensaje" name="mensaje" rows="10" placeholder=" " required></textarea>
+                        <label class="form-label" for="mensaje">Mensaje:</label>
+                      </div>
+                    </div>
+                  </div>
+                  <input class="btn btn-success col-6 my-3" type="submit" value="Enviar">
               </form>
 
               <!-- Mensaje de éxito -->
-              <div class="alert alert-success mt-3" role="alert" id="mensaje-exito" style="display: none;">
+              <div class="alert alert-success mt-3 mx-5" role="alert" id="mensaje-exito" style="display: none;">
                 El formulario se ha enviado correctamente.
               </div>
 
               <!-- Mensaje de error -->
-              <div class="alert alert-danger mt-3" role="alert" id="mensaje-error" style="display: none;">
+              <div class="col-6 alert alert-danger mt-3" role="alert" id="mensaje-error" style="display: none;">
                 Se produjo un error al enviar el formulario. Por favor, inténtalo de nuevo más tarde.
               </div>
 
