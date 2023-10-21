@@ -6,12 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RDJP | Contacto</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <header>
   <!--Aqui puede ir contenido del encabezado, pero solo estoy utilizando el nav-->  
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
@@ -118,9 +116,8 @@
     </div>
   </footer>
   <!-- Resto del contenido de la página -->
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>
