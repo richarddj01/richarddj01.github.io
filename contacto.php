@@ -77,7 +77,7 @@
                       </div>
                     </div>
                   </div>
-                  <input class="btn btn-success col-6 my-4" type="submit" value="Enviar">
+                  <input class="btn btn-success col-6 my-4" type="submit" value="enviar">
               </form>
 
               <!-- Mensaje de éxito -->
