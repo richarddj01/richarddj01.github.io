@@ -52,7 +52,7 @@
               <h1 class="my-3">Formulario de Contacto:</h1>
 
               <!--Formulario, aqui creo el llamado al metodo insertar de la clase DAO-->
-              <form class="form-floating mx-5" method="POST" action="./php/formulario/FormularioProcesar.php">
+              <form class="form-floating mx-5" method="POST" action="./php/enviar_correo.php">
                   <div class="row">
                     <div class="col-6 text-secondary">
                       <div class="form-floating">
