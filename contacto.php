@@ -52,7 +52,7 @@
               <h1 class="my-3">Formulario de Contacto:</h1>
 
               <!--Formulario, aqui creo el llamado al metodo insertar de la clase DAO-->
-              <form class="form-floating mx-5" method="POST" action="./php/enviar_correo.php">
+              <form class="form-floating mx-5" method="POST" > <!--action="./php/enviar_correo.php"-->
                   <div class="row">
                     <div class="col-6 text-secondary">
                       <div class="form-floating">
@@ -77,9 +77,11 @@
                       </div>
                     </div>
                   </div>
-                  <input class="btn btn-success col-6 my-4" type="submit" value="enviar">
+                  <input class="btn btn-success col-6 my-4" type="submit" value="Enviar">
               </form>
-
+              <?php
+                include("./php/enviar_correo.php");
+              ?>
               <!-- Mensaje de éxito -->
               <div class="alert alert-success mt-3 mx-5" role="alert" id="mensaje-exito" style="display: none;">
                 El formulario se ha enviado correctamente.

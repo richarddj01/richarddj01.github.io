@@ -79,7 +79,7 @@
                       </div>
                     </div>
                   </div>
-                  <input class="btn btn-success col-6 my-4" type="submit" value="Enviar">
+                  <input class="btn btn-success col-6 my-4" type="submit" name="enviar" value="Enviar">
               </form>
 
               <!-- Mensaje de éxito -->
