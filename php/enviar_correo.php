@@ -8,10 +8,10 @@
             $encabezado_mensaje.= "X-Mailer: PHP/" . phpversion();
             $mail = mail("admin@ricardopineda.net","Formulario ricardopineda.net", $mensaje,$encabezado_mensaje);
             if($mail){
-                header("Location: ../../contacto.php?enviado=true");
+                header("Location: ../contacto.php?enviado=true");
             }
             else{
-                header("Location: ../../contacto.php");
+                header("Location: ../contacto.php");
             }
             exit();
         }
