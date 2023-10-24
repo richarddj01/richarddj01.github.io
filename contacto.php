@@ -79,9 +79,7 @@
                   </div>
                   <input class="btn btn-success col-6 my-4" type="submit" value="Enviar">
               </form>
-              <?php
-                include("./php/enviar_correo.php");
-              ?>
+             
               <!-- Mensaje de éxito -->
               <div class="alert alert-success mt-3 mx-5" role="alert" id="mensaje-exito" style="display: none;">
                 El formulario se ha enviado correctamente.
@@ -95,6 +93,7 @@
               <!-- Script para mostrar el mensaje -->
               <script>
                 <?php
+                include("./php/enviar_correo.php");
                 // Verificar si se ha enviado el formulario y mostrar el mensaje correspondiente
                 if (isset($_GET['enviado'])) {
                     $enviado = $_GET['enviado'];
